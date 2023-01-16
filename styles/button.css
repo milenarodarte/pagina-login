@@ -1,0 +1,32 @@
+.button1 {
+    height: 40px;
+    width: 120px;
+    background-color: var(--color-grey-3);
+    border: none;
+    color: var(--color-primary);
+    border-radius: 6px;
+}
+.button1:hover {
+    border: 2px solid var(--color-grey-6);
+}
+.button2 {
+    height: 40px;
+    width: 120px;
+    background-color: var(--color-grey-3);
+    border: none;
+    color: var(--color-primary);
+    border-radius: 6px;
+}
+.button2:hover {
+    border: 2px solid var(--color-grey-6);
+}
+.sendForm {
+    align-self: center;
+    margin-top: 5px;
+    height: 20px;
+    width: 120px;
+    background-color: var(--color-grey-2);
+    border: none;
+    color: var(--color-primary);
+    border-radius: 6px;
+}

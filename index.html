@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/globalStyles.css">
+    <link rel="stylesheet" href="./pages/login/index.css">
+    <link rel="stylesheet" href="./styles/button.css">
+    <link rel="stylesheet" href="./styles/modal1.css">
+    <script defer src="./scripts/script.js"></script>
+    <script defer src="./scripts/modal.js"></script>
+    <title>Login</title>
+</head>
+<body>
+
+    <div class="container">
+        <nav class="header">
+            <p class="h1Header"> Blog.com </p>
+            <!--<button class="button1">LogIn</button>-->
+        </nav>
+        <main class="initialPage">
+            <h1 class="h1InitialPage">LogIn above to acess the content</h1>
+        </main>
+
+        <div class="modal">
+
+            <div class="modal-container">
+
+                <div class="modal-container-left">
+                    <h3 class="bem-vindos">Bem vindos ao Blog.com!</h3>
+                    <p class="texto-bem-vindo-site">Nossso objeto é te ajudar nessa caminhada de descobertas. A internet se popularizou e cada vez mais precisamos de mecanismos que filtrem os conteúdos presentes no nosso dia a dia. Aqui você encontrará apenas as notícias mais relevantes selecionadas especialmente para você! Faça parte da nossa comunidade e filtre os assuntos que realmente gosta, selecionados por quem você confia. Viva leve!</p>
+                    
+                </div>
+
+                <div class="modal-container-right">
+                    <h3 class="login-text">Faça LogIn com e-mail e senha cadastrados</h3>
+                    <form class="formLogin">
+                        <label for="emailLogin" class="labelLogin">e-mail:</label>
+                        <input type="email" placeholder="Digite seu e-mail" class="inputLogin" id="emailLogin"/>
+                        <label for="passwordLogin" class="labelLogin">senha:</label>
+                        <input type="password" placeholder="digite sua senha aqui" class="inputLogin" id="passwordLogin"/>
+                        <button class="sendForm"> Enviar</button>
+                    </form>
+                    <p class="login-text">esqueceu a sua sua senha? Clique <button class="passwordReset">aqui</button></p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="modalResetPassword">
+            <div class="modal-reset-container">
+
+                <header class="modal-header-reset">
+                    <button class="buttonClose">X</button>   
+                </header>
+
+                <main class="modal-reset-main">
+                    <h3 class="h3-form-reset">Insira o e-mail cadastrado para redefinir a sua senha</h3>
+                    <form class="form-reset-password">
+                    <label class="labelLogin" for="resetPassword">e-mail:</label>
+                    <input class="inputLogin" type="email" id="resetPassword" placeholder="Digite seu e-mail">
+                    </form>
+                    <button class="button2" type="submit">Enviar</button>
+                </main>
+               
+            </div>
+            
+        </div>
+
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,500;1,600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--color-primary);
+    font-family: poppins;
+}
+.container {
+    max-width: 900px;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    background-color: var(--color-grey-1);
+    border-radius: 5px;
+}
+.header {
+    height: 60px;
+    width: 100%;
+    box-shadow: 1px 1px 10px 2px var(--color-grey-3);
+    background-color: var(--color-grey-4);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    border-radius: 5px;
+}
+.h1Header {
+    font-size: var(--font-size-title);
+}
+.initialPage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    
+   
+}
+.h1InitialPage{
+    color: var(--color-grey-6);
+}
+.h1InitialPage:hover {
+    text-shadow: 1px 1px var(--color-primary);
+    
+    
+}
+
+
+.modal {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    border-radius: 4px;
+
+}
+.modal-container {
+  
+    display: flex;
+   
+    width: 714px;
+    height: 407px;
+    background-color: pink;
+    border-radius: 4px;
+    
+    position: fixed;
+    
+}
+.modal-container-left{
+    width: 321px;
+    background-color: var(--color-grey-3);
+    height: 407px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    border-radius: 4px 0px 0px 4px;
+    
+}
+.modal-container-right{
+    background-color: var(--color-grey-4);
+    height: 407px;
+    width: 393px;
+    border-radius: 0px 4px 4px 0px;
+}
+.texto-bem-vindo-site {
+    width: 300px;
+    background-color: var(--color-grey-4);
+    color: var(--color-grey-1);
+    font-size: var(--font-size-normal);
+    border-radius: 5px;
+    text-align: justify;
+    padding: 4px;
+}
+.bem-vindos{
+   margin-top: 20px;
+}
+
+.formLogin {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-grey-3);
+    border-radius: 4px;
+    width: 250px;
+    height: 150px;
+    justify-content: center;
+    align-items: left;
+    
+}
+.modal-container-right {
+    
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.login-text {
+    font-size: var(--font-size-subtitle);
+    margin-bottom: 20px;
+    background-color: var(--color-grey-6);
+    border-radius: 4px;
+}
+.inputLogin {
+    height: 30px;
+    background-color: var(--color-grey-6);
+    border-radius: 5px;
+    border: none;
+    width: 90%;
+    margin: 0 auto;
+
+}
+.inputLogin:hover{
+    border: 1px solid var(--color-grey-2);
+}
+.labelLogin {
+    margin-left: 5%;
+    color: var(--color-grey-1);
+}
+.passwordReset {
+    border: none;
+    background-color: var(--color-grey-6) ;
+    font-size: var(--font-size-subtitle);
+}
+.passwordReset:hover{
+    text-decoration: underline;
+    font-size: var(--font-size-title);
+}
+.modalResetPassword {
+    position: fixed;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.5);
+}
+.modal-reset-container{
+    position: fixed;
+    
+    width: 346px;
+    height: 346px;
+    background-color: var(--color-grey-4);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+
+}
+.buttonClose {
+    border-radius: 100%;
+    border: none;
+    background-color: var(--color-grey-2) ;
+    font-size: var(--font-size-subtitle);
+    color: var(--color-grey-1);
+    width: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.buttonClose:hover {
+    border: 1px solid pink;
+}
+.modal-header-reset {
+   align-self: flex-end;
+   padding: 10px;
+}
+.h3-form-reset {
+   align-self: center;
+   font-size: var(--font-size-title);
+   
+}
+.modal-reset-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   margin-top: 20px;
+   padding: 10px;
+   text-align: justify;
+   
+}
+
+.form-reset-password {
+    margin-top: 20px;
+    background-color: var(--color-grey-2);
+    height: 100px;
+    
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    gap: 3px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.show-modal {
+    display: flex;
+}
+
